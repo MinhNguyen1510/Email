@@ -1,0 +1,266 @@
+07-Sep-2025 10:48:26.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.44
+07-Sep-2025 10:48:26.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 4 2025 13:14:17 UTC
+07-Sep-2025 10:48:26.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.44.0
+07-Sep-2025 10:48:26.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+07-Sep-2025 10:48:26.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-79-generic
+07-Sep-2025 10:48:26.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Sep-2025 10:48:26.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+07-Sep-2025 10:48:26.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.28+6-post-Ubuntu-1ubuntu122.04.1
+07-Sep-2025 10:48:26.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+07-Sep-2025 10:48:26.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/minhnguyen/IdeaProjects/Email_Chapter6_1
+07-Sep-2025 10:48:26.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/minhnguyen/Downloads/apache-tomcat-10.1.44
+07-Sep-2025 10:48:26.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Sep-2025 10:48:26.615 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Sep-2025 10:48:26.615 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Sep-2025 10:48:26.615 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Sep-2025 10:48:26.615 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Sep-2025 10:48:26.615 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/minhnguyen/Downloads/apache-tomcat-10.1.44
+07-Sep-2025 10:48:26.615 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/minhnguyen/IdeaProjects/Email_Chapter6_1
+07-Sep-2025 10:48:26.615 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/minhnguyen/IdeaProjects/Email_Chapter6_1/temp
+07-Sep-2025 10:48:26.615 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/minhnguyen/IdeaProjects/Email_Chapter6_1/conf/logging.properties
+07-Sep-2025 10:48:26.615 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Sep-2025 10:48:26.615 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/home/minhnguyen/Downloads/ideaIC-2025.2/idea-IC-252.23892.409/lib/idea_rt.jar=44433
+07-Sep-2025 10:48:26.615 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+07-Sep-2025 10:48:26.617 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+07-Sep-2025 10:48:26.899 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 10:48:26.927 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [559] milliseconds
+07-Sep-2025 10:48:26.966 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Sep-2025 10:48:26.966 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.44]
+07-Sep-2025 10:48:26.978 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/minhnguyen/IdeaProjects/Email_Chapter6_1/conf/Catalina/localhost/Email_Chapter6_1.xml]
+07-Sep-2025 10:48:27.062 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [/home/minhnguyen/IdeaProjects/Email_Chapter6_1/target/classes] which is part of the web application [/Email_Chapter6_1]
+07-Sep-2025 10:48:27.546 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Sep-2025 10:48:27.591 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/minhnguyen/IdeaProjects/Email_Chapter6_1/conf/Catalina/localhost/Email_Chapter6_1.xml] has finished in [613] ms
+07-Sep-2025 10:48:27.595 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 10:48:27.603 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [676] milliseconds
+07-Sep-2025 10:48:57.593 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 10:48:57.594 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Sep-2025 10:48:57.604 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 10:48:57.608 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 10:49:49.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.44
+07-Sep-2025 10:49:49.179 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 4 2025 13:14:17 UTC
+07-Sep-2025 10:49:49.179 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.44.0
+07-Sep-2025 10:49:49.179 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+07-Sep-2025 10:49:49.179 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-79-generic
+07-Sep-2025 10:49:49.179 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Sep-2025 10:49:49.179 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+07-Sep-2025 10:49:49.179 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.28+6-post-Ubuntu-1ubuntu122.04.1
+07-Sep-2025 10:49:49.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+07-Sep-2025 10:49:49.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/minhnguyen/IdeaProjects/Email_Chapter6_1
+07-Sep-2025 10:49:49.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/minhnguyen/Downloads/apache-tomcat-10.1.44
+07-Sep-2025 10:49:49.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Sep-2025 10:49:49.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Sep-2025 10:49:49.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Sep-2025 10:49:49.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Sep-2025 10:49:49.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Sep-2025 10:49:49.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/minhnguyen/Downloads/apache-tomcat-10.1.44
+07-Sep-2025 10:49:49.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/minhnguyen/IdeaProjects/Email_Chapter6_1
+07-Sep-2025 10:49:49.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/minhnguyen/IdeaProjects/Email_Chapter6_1/temp
+07-Sep-2025 10:49:49.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/minhnguyen/IdeaProjects/Email_Chapter6_1/conf/logging.properties
+07-Sep-2025 10:49:49.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Sep-2025 10:49:49.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/home/minhnguyen/Downloads/ideaIC-2025.2/idea-IC-252.23892.409/lib/idea_rt.jar=33281
+07-Sep-2025 10:49:49.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+07-Sep-2025 10:49:49.192 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+07-Sep-2025 10:49:49.486 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 10:49:49.508 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [530] milliseconds
+07-Sep-2025 10:49:49.548 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Sep-2025 10:49:49.548 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.44]
+07-Sep-2025 10:49:49.563 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/minhnguyen/IdeaProjects/Email_Chapter6_1/conf/Catalina/localhost/Email_Chapter6_1.xml]
+07-Sep-2025 10:49:49.621 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [/home/minhnguyen/IdeaProjects/Email_Chapter6_1/target/classes] which is part of the web application [/Email_Chapter6_1]
+07-Sep-2025 10:49:50.090 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Sep-2025 10:49:50.136 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/minhnguyen/IdeaProjects/Email_Chapter6_1/conf/Catalina/localhost/Email_Chapter6_1.xml] has finished in [573] ms
+07-Sep-2025 10:49:50.140 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 10:49:50.150 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [641] milliseconds
+07-Sep-2025 10:50:15.228 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 10:50:15.230 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Sep-2025 10:50:15.239 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 10:50:15.242 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 10:52:30.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.44
+07-Sep-2025 10:52:30.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 4 2025 13:14:17 UTC
+07-Sep-2025 10:52:30.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.44.0
+07-Sep-2025 10:52:30.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+07-Sep-2025 10:52:30.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-79-generic
+07-Sep-2025 10:52:30.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Sep-2025 10:52:30.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+07-Sep-2025 10:52:30.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.28+6-post-Ubuntu-1ubuntu122.04.1
+07-Sep-2025 10:52:30.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+07-Sep-2025 10:52:30.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/minhnguyen/IdeaProjects/Email_Chapter6_1
+07-Sep-2025 10:52:30.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/minhnguyen/Downloads/apache-tomcat-10.1.44
+07-Sep-2025 10:52:30.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Sep-2025 10:52:30.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Sep-2025 10:52:30.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Sep-2025 10:52:30.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Sep-2025 10:52:30.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Sep-2025 10:52:30.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/minhnguyen/Downloads/apache-tomcat-10.1.44
+07-Sep-2025 10:52:30.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/minhnguyen/IdeaProjects/Email_Chapter6_1
+07-Sep-2025 10:52:30.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/minhnguyen/IdeaProjects/Email_Chapter6_1/temp
+07-Sep-2025 10:52:30.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/minhnguyen/IdeaProjects/Email_Chapter6_1/conf/logging.properties
+07-Sep-2025 10:52:30.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Sep-2025 10:52:30.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/home/minhnguyen/Downloads/ideaIC-2025.2/idea-IC-252.23892.409/lib/idea_rt.jar=41611
+07-Sep-2025 10:52:30.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+07-Sep-2025 10:52:30.213 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+07-Sep-2025 10:52:30.508 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 10:52:30.530 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [520] milliseconds
+07-Sep-2025 10:52:30.571 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Sep-2025 10:52:30.571 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.44]
+07-Sep-2025 10:52:30.584 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/minhnguyen/IdeaProjects/Email_Chapter6_1/conf/Catalina/localhost/Email_Chapter6_1.xml]
+07-Sep-2025 10:52:30.647 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [/home/minhnguyen/IdeaProjects/Email_Chapter6_1/target/classes] which is part of the web application [/Email_Chapter6_1]
+07-Sep-2025 10:52:31.201 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Sep-2025 10:52:31.246 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/minhnguyen/IdeaProjects/Email_Chapter6_1/conf/Catalina/localhost/Email_Chapter6_1.xml] has finished in [662] ms
+07-Sep-2025 10:52:31.251 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 10:52:31.259 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [729] milliseconds
+07-Sep-2025 10:53:40.734 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 10:53:40.736 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Sep-2025 10:53:40.745 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 10:53:40.748 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 10:54:40.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.44
+07-Sep-2025 10:54:40.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 4 2025 13:14:17 UTC
+07-Sep-2025 10:54:40.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.44.0
+07-Sep-2025 10:54:40.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+07-Sep-2025 10:54:40.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-79-generic
+07-Sep-2025 10:54:40.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Sep-2025 10:54:40.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+07-Sep-2025 10:54:40.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.28+6-post-Ubuntu-1ubuntu122.04.1
+07-Sep-2025 10:54:40.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+07-Sep-2025 10:54:40.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/minhnguyen/IdeaProjects/Email_Chapter6_1
+07-Sep-2025 10:54:40.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/minhnguyen/Downloads/apache-tomcat-10.1.44
+07-Sep-2025 10:54:40.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Sep-2025 10:54:40.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Sep-2025 10:54:40.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Sep-2025 10:54:40.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Sep-2025 10:54:40.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Sep-2025 10:54:40.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/minhnguyen/Downloads/apache-tomcat-10.1.44
+07-Sep-2025 10:54:40.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/minhnguyen/IdeaProjects/Email_Chapter6_1
+07-Sep-2025 10:54:40.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/minhnguyen/IdeaProjects/Email_Chapter6_1/temp
+07-Sep-2025 10:54:40.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/minhnguyen/IdeaProjects/Email_Chapter6_1/conf/logging.properties
+07-Sep-2025 10:54:40.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Sep-2025 10:54:40.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/home/minhnguyen/Downloads/ideaIC-2025.2/idea-IC-252.23892.409/lib/idea_rt.jar=39661
+07-Sep-2025 10:54:40.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+07-Sep-2025 10:54:40.266 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+07-Sep-2025 10:54:40.581 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 10:54:40.605 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [567] milliseconds
+07-Sep-2025 10:54:40.659 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Sep-2025 10:54:40.659 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.44]
+07-Sep-2025 10:54:40.678 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/minhnguyen/IdeaProjects/Email_Chapter6_1/conf/Catalina/localhost/Email_Chapter6_1.xml]
+07-Sep-2025 10:54:40.762 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [/home/minhnguyen/IdeaProjects/Email_Chapter6_1/target/classes] which is part of the web application [/Email_Chapter6_1]
+07-Sep-2025 10:54:41.282 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Sep-2025 10:54:41.326 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/minhnguyen/IdeaProjects/Email_Chapter6_1/conf/Catalina/localhost/Email_Chapter6_1.xml] has finished in [649] ms
+07-Sep-2025 10:54:41.330 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 10:54:41.338 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [731] milliseconds
+07-Sep-2025 10:56:14.879 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 10:56:14.881 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Sep-2025 10:56:14.891 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 10:56:14.906 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 10:56:44.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.44
+07-Sep-2025 10:56:44.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 4 2025 13:14:17 UTC
+07-Sep-2025 10:56:44.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.44.0
+07-Sep-2025 10:56:44.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+07-Sep-2025 10:56:44.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-79-generic
+07-Sep-2025 10:56:44.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Sep-2025 10:56:44.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+07-Sep-2025 10:56:44.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.28+6-post-Ubuntu-1ubuntu122.04.1
+07-Sep-2025 10:56:44.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+07-Sep-2025 10:56:44.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/minhnguyen/IdeaProjects/Email_Chapter6_1
+07-Sep-2025 10:56:44.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/minhnguyen/Downloads/apache-tomcat-10.1.44
+07-Sep-2025 10:56:44.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Sep-2025 10:56:44.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Sep-2025 10:56:44.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Sep-2025 10:56:44.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Sep-2025 10:56:44.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Sep-2025 10:56:44.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/minhnguyen/Downloads/apache-tomcat-10.1.44
+07-Sep-2025 10:56:44.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/minhnguyen/IdeaProjects/Email_Chapter6_1
+07-Sep-2025 10:56:44.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/minhnguyen/IdeaProjects/Email_Chapter6_1/temp
+07-Sep-2025 10:56:44.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/minhnguyen/IdeaProjects/Email_Chapter6_1/conf/logging.properties
+07-Sep-2025 10:56:44.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Sep-2025 10:56:44.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/home/minhnguyen/Downloads/ideaIC-2025.2/idea-IC-252.23892.409/lib/idea_rt.jar=42317
+07-Sep-2025 10:56:44.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+07-Sep-2025 10:56:44.431 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+07-Sep-2025 10:56:44.746 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 10:56:44.770 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [563] milliseconds
+07-Sep-2025 10:56:44.813 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Sep-2025 10:56:44.813 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.44]
+07-Sep-2025 10:56:44.826 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/minhnguyen/IdeaProjects/Email_Chapter6_1/conf/Catalina/localhost/Email_Chapter6_1.xml]
+07-Sep-2025 10:56:44.885 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [/home/minhnguyen/IdeaProjects/Email_Chapter6_1/target/classes] which is part of the web application [/Email_Chapter6_1]
+07-Sep-2025 10:56:45.389 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Sep-2025 10:56:45.433 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/minhnguyen/IdeaProjects/Email_Chapter6_1/conf/Catalina/localhost/Email_Chapter6_1.xml] has finished in [606] ms
+07-Sep-2025 10:56:45.437 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 10:56:45.446 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [676] milliseconds
+07-Sep-2025 10:57:06.473 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 10:57:06.474 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Sep-2025 10:57:06.483 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 10:57:06.486 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 11:00:27.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.44
+07-Sep-2025 11:00:28.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 4 2025 13:14:17 UTC
+07-Sep-2025 11:00:28.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.44.0
+07-Sep-2025 11:00:28.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+07-Sep-2025 11:00:28.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-79-generic
+07-Sep-2025 11:00:28.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Sep-2025 11:00:28.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+07-Sep-2025 11:00:28.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.28+6-post-Ubuntu-1ubuntu122.04.1
+07-Sep-2025 11:00:28.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+07-Sep-2025 11:00:28.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/minhnguyen/IdeaProjects/Email_Chapter6_1
+07-Sep-2025 11:00:28.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/minhnguyen/Downloads/apache-tomcat-10.1.44
+07-Sep-2025 11:00:28.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Sep-2025 11:00:28.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Sep-2025 11:00:28.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Sep-2025 11:00:28.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Sep-2025 11:00:28.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Sep-2025 11:00:28.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/minhnguyen/Downloads/apache-tomcat-10.1.44
+07-Sep-2025 11:00:28.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/minhnguyen/IdeaProjects/Email_Chapter6_1
+07-Sep-2025 11:00:28.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/minhnguyen/IdeaProjects/Email_Chapter6_1/temp
+07-Sep-2025 11:00:28.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/minhnguyen/IdeaProjects/Email_Chapter6_1/conf/logging.properties
+07-Sep-2025 11:00:28.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Sep-2025 11:00:28.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/home/minhnguyen/Downloads/ideaIC-2025.2/idea-IC-252.23892.409/lib/idea_rt.jar=41471
+07-Sep-2025 11:00:28.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+07-Sep-2025 11:00:28.013 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+07-Sep-2025 11:00:28.320 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 11:00:28.345 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [542] milliseconds
+07-Sep-2025 11:00:28.385 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Sep-2025 11:00:28.385 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.44]
+07-Sep-2025 11:00:28.398 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/minhnguyen/IdeaProjects/Email_Chapter6_1/conf/Catalina/localhost/Email_Chapter6_1.xml]
+07-Sep-2025 11:00:28.458 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [/home/minhnguyen/IdeaProjects/Email_Chapter6_1/target/classes] which is part of the web application [/Email_Chapter6_1]
+07-Sep-2025 11:00:28.965 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Sep-2025 11:00:29.011 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/minhnguyen/IdeaProjects/Email_Chapter6_1/conf/Catalina/localhost/Email_Chapter6_1.xml] has finished in [613] ms
+07-Sep-2025 11:00:29.015 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 11:00:29.024 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [678] milliseconds
+07-Sep-2025 11:00:49.195 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 11:00:49.196 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Sep-2025 11:00:49.205 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 11:00:49.217 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 11:06:23.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.44
+07-Sep-2025 11:06:23.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 4 2025 13:14:17 UTC
+07-Sep-2025 11:06:23.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.44.0
+07-Sep-2025 11:06:23.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+07-Sep-2025 11:06:23.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-79-generic
+07-Sep-2025 11:06:23.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Sep-2025 11:06:23.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+07-Sep-2025 11:06:23.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.28+6-post-Ubuntu-1ubuntu122.04.1
+07-Sep-2025 11:06:23.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+07-Sep-2025 11:06:23.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/minhnguyen/IdeaProjects/Email_Chapter6_1
+07-Sep-2025 11:06:23.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/minhnguyen/Downloads/apache-tomcat-10.1.44
+07-Sep-2025 11:06:23.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Sep-2025 11:06:23.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Sep-2025 11:06:23.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Sep-2025 11:06:23.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Sep-2025 11:06:23.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Sep-2025 11:06:23.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/minhnguyen/Downloads/apache-tomcat-10.1.44
+07-Sep-2025 11:06:23.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/minhnguyen/IdeaProjects/Email_Chapter6_1
+07-Sep-2025 11:06:23.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/minhnguyen/IdeaProjects/Email_Chapter6_1/temp
+07-Sep-2025 11:06:23.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/minhnguyen/IdeaProjects/Email_Chapter6_1/conf/logging.properties
+07-Sep-2025 11:06:23.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Sep-2025 11:06:23.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/home/minhnguyen/Downloads/ideaIC-2025.2/idea-IC-252.23892.409/lib/idea_rt.jar=41763
+07-Sep-2025 11:06:23.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+07-Sep-2025 11:06:23.511 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+07-Sep-2025 11:06:23.788 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 11:06:23.817 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [520] milliseconds
+07-Sep-2025 11:06:23.872 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Sep-2025 11:06:23.872 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.44]
+07-Sep-2025 11:06:23.888 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/minhnguyen/IdeaProjects/Email_Chapter6_1/conf/Catalina/localhost/Email_Chapter6_1.xml]
+07-Sep-2025 11:06:23.957 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [/home/minhnguyen/IdeaProjects/Email_Chapter6_1/target/classes] which is part of the web application [/Email_Chapter6_1]
+07-Sep-2025 11:06:24.492 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Sep-2025 11:06:24.535 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/minhnguyen/IdeaProjects/Email_Chapter6_1/conf/Catalina/localhost/Email_Chapter6_1.xml] has finished in [646] ms
+07-Sep-2025 11:06:24.539 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 11:06:24.547 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [729] milliseconds
+07-Sep-2025 11:06:46.073 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 11:06:46.074 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Sep-2025 11:06:46.084 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Sep-2025 11:06:46.088 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
